@@ -67,3 +67,68 @@ var car = {
 for (let key in car) {
     console.log(`My car has ${car[key]} ${key}`)
 }
+
+//--------------------------------------------------------
+
+//Exercise
+
+//#1
+var exercise = {
+        firstName: 'John',
+        lastName: 'Doe',
+        age: '36',
+        address: '1234 Park st'
+    }
+console.log(exercise)
+
+//#2
+exercise.address = '1234 Park ln'
+console.log(exercise)
+
+//#3
+// Create Array
+// Create Objects
+// Push Objects into Array
+// USe the Method BELOW
+
+let people = []
+
+var moe = {
+    firstName: '',
+    lastName: '',
+    age: '',
+    address: ''
+}
+
+var joe = {
+    firstName: '',
+    lastName: '',
+    age: '',
+    address: ''
+}
+
+people.push(moe)
+people,push(joe)
+
+//--------------------OR------------------------
+//Create array with objects inside
+
+let peopleOptTwo = [ //ARRAY
+    
+    { //OBJECT #1
+        firstName: '',
+        lastName: '',
+        age: '',
+        address: ''
+    },
+    
+    { //OBJECT #2
+        firstName: '',
+        lastName: '',
+        age: '',
+        address: ''
+    }
+]
+
+//#4
+delete people[1].address
