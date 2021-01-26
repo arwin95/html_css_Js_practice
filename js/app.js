@@ -87,3 +87,20 @@ for (let i = 0; i < a5.length; i++) {
 let a5Avg = a5Total/a5.length
 
 console.log(a5Avg)
+
+// PUSH (adds to the end of the array..)
+let myArray = []
+myArray.push('one')
+myArray.push('two')
+
+console.log(myArray)
+//POP (removes from the end of the array..)
+console.log(`the item popped: ${myArray.pop()}`)
+console.log(myArray)
+
+//UNSHIFT (adds to beginning of the array..)
+myArray.unshift('zero')
+console.log(myArray)
+
+// let myArr2 = [1,2].concat[3,4]
+// console.log(myArr2)
